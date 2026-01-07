@@ -53,7 +53,7 @@ styles/
 1. **Clone the repository**
 
 ```bash
-git clone 
+git clone  https://github.com/rakesh-jaiswal23/Notes-App-.git
 ```
 
 2. **Install dependencies**
