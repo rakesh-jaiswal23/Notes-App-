@@ -6,13 +6,52 @@ A clean and modern **Notes App** built with **Next.js (App Router)**, **React 19
 
 ## 🚀 Features
 
-* ✍️ Create, edit, and delete notes
-* 🕒 Auto-generated timestamps for notes
-* ⚡ Fast UI with React 19 & Next.js
-* 🎨 Modern UI using Tailwind CSS
-* 🧩 Reusable components
-* ⏳ Loading & empty states
-* 📱 Fully responsive design
+* ✍️ Add, edit, and delete notes
+* ⏳ Loading and empty states for better UX
+* 📱 Responsive and clean UI
+
+---
+
+## ▶️ How to Run
+
+**Requirements**
+
+* Node.js 18+
+
+**Steps**
+
+```bash
+npm install
+npm run dev
+```
+
+Open [http://localhost:3000](http://localhost:3000)
+
+---
+
+## 🧩 Component Breakdown
+
+* **NoteForm**: Handles adding and editing notes with basic validation
+* **NoteList**: Renders the list of notes
+* **NoteItem**: Displays a single note with edit & delete actions
+* **Loader**: Shown while app is initializing
+* **EmptyState**: Shown when no notes exist
+
+---
+
+## 🔁 State Explanation
+
+* Notes state is managed in the main page using React `useState`
+* Data flows top-down via props
+* Child components trigger updates using callback functions
+
+---
+
+## ⚠️ Assumptions & Limitations
+
+* Notes are stored in memory (no database)
+* Data resets on page refresh
+* API behavior is simulated using `setTimeout`
 
 ---
 
@@ -21,8 +60,7 @@ A clean and modern **Notes App** built with **Next.js (App Router)**, **React 19
 * **Framework**: Next.js 16 (App Router)
 * **Language**: TypeScript
 * **UI**: Tailwind CSS, Radix UI
-* **State Management**: React Hooks
-* **Forms**: React Hook Form + Zod
+* **State Management**: React Hook
 * **Icons**: Lucide React
 * **Animations**: Tailwind + CSS transitions
 
@@ -53,7 +91,7 @@ styles/
 1. **Clone the repository**
 
 ```bash
-git clone  https://github.com/rakesh-jaiswal23/Notes-App-.git
+git clone https://github.com/your-username/notes-app.git
 ```
 
 2. **Install dependencies**
@@ -94,8 +132,6 @@ http://localhost:3000
 ```bash
 npm run dev      # Start development server
 npm run build    # Build for production
-npm run start    # Start production server
-npm run lint     # Run ESLint
 ```
 
 ---
@@ -121,14 +157,6 @@ npm run lint     # Run ESLint
 ## 👨‍💻 Author
 
 **Rakesh Jaiswal**
-Frontend Developer (React, Next.js)
+Fullstack Developer (React, Next.js,Node.js)
 
----
 
-## 📄 License
-
-This project is open-source and free to use.
-
----
-
-⭐ If you like this project, give it a star and feel free to contribute!
